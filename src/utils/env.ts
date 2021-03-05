@@ -63,7 +63,10 @@ export const CONSTANTS = {
   MULTI_TENANT_KEYCLOAK:
     env.MULTI_TENANT_KEYCLOAK ||
     'localhost,https://siemens-staging.onwingspan.com/auth,wingspan;localhost,https://siemens-staging.onwingspan.com/auth,wingspan',
-  NAVIGATOR_JSON_HOST:
+    MSG91BASE : 'https://api.msg91.com',
+    MSG91KEY : env.MSG91KEY ,
+    MSG91TEMPLATEID : env.MSG91TEMPLATEID,
+    NAVIGATOR_JSON_HOST:
     env.NAVIGATOR_JSON_HOST || 'http://10.177.157.30:3007/web-hosted/navigator/json',
   NODE_API_BASE: env.NODE_API_BASE || 'http://10.177.22.26:5001',
   NODE_API_BASE_2: env.NODE_API_BASE_2 || 'http://10.177.157.30:3009',
